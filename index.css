@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar{
+    height: 45px;
+    width: auto;
+    /* border: 1px solid red; */
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #734AF6;
+    color: white;
+}
+.gitbtn{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #734AF6;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#container{
+    display: flex;
+    border-top: none;
+}
+
+#input, #output{
+    flex: 1;
+    margin: 2%;
+    height: 600px;
+    border: 1px dashed black;
+}
+
+#input-text{
+    width: 99.4%;
+    height: 89%;
+}
+
+#input-text,p{
+    font-size: 20px;
+    margin-top: 0;
+    border: none;
+}
+
+hr{
+    display: none;
+    /* margin-top: 0;
+    margin-bottom: 0; */
+}
+#temp{
+    color: #656565;
+    margin-left: 2px;
+}
+.outputbox{
+    display: flex;
+}
+.inputnav{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+
+.inputnav>p{
+    margin-left: 2px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #734AF6;
+}
+
+.inputnav>select{
+    margin-left: 10px;
+    border: 1px solid #734AF6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1190px){
+    #input-text{
+        width: 98.5%;
+        height: 89%;
+    }
+}
+
+@media only screen and (min-width: 70px) and (max-width: 699px){
+    #navbar{
+        height: 45px;
+        width: auto;
+        /* border: 1px solid red; */
+        padding: 5px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        background-color: #734AF6;
+        color: white;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .gitbtn{
+        font-size: 15px;
+        padding: 2.5px 10px;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: #734AF6;
+        font-weight: 400;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    
+    #container{
+        display: block;
+        border-top: none;
+    }
+    
+    #input, #output{
+        flex: 1;
+        margin: 2%;
+        height: 300px;
+        border: 1px dashed black;
+    }
+    
+    #input-text{
+        width: 98%;
+        height: 78%;
+    }
+    
+    #input-text,p{
+        font-size: 20px;
+        margin-top: 0;
+        border: none;
+    }
+    
+    hr{
+        display: none;
+        /* margin-top: 0;
+        margin-bottom: 0; */
+    }
+    #temp{
+        color: #656565;
+        margin-left: 2px;
+    }
+    .outputbox{
+        display: flex;
+    }
+    .inputnav{
+        display: flex;
+        justify-content: baseline;
+        align-items: baseline;
+    
+    }
+    
+    .inputnav>p{
+        margin-left: 2px;
+        margin-top: 15px;
+        font-weight: 600;
+        color: #734AF6;
+    }
+    
+    .inputnav>select{
+        margin-left: 10px;
+        border: 1px solid #734AF6;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+}
