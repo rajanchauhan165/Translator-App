@@ -85,6 +85,9 @@ hr{
     border-radius: 5px;
     font-size: 20px;
 }
+textarea:focus{
+    outline: none;
+}
 
 
 @media only screen and (min-width: 700px) and (max-width: 1190px){
@@ -92,6 +95,9 @@ hr{
         width: 98.5%;
         height: 89%;
     }
+    textarea:focus{
+    outline: none;
+}
 }
 
 @media only screen and (min-width: 70px) and (max-width: 699px){
@@ -179,4 +185,7 @@ hr{
         border-radius: 5px;
         font-size: 20px;
     }
+    textarea:focus{
+    outline: none;
+}
 }
